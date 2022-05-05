@@ -34,5 +34,5 @@ module.exports = {
   traverse: () => require('@babel/traverse'),
   types: () => require('@babel/types'),
   pluginTransformReactJsxDevelopment: () =>
-  require('@babel/plugin-transform-react-jsx-development')
+    require('@babel/plugin-transform-react-jsx-development')
 };
